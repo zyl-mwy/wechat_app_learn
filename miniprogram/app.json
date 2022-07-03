@@ -1,16 +1,51 @@
 {
   "pages": [
-    "pages/test_1/test_1",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/test/test"
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/test_1/test_1",
+    "pages/test/test",
+    "pages/logs/logs"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark", "//" : "light", "//" : "下拉刷新圆点颜色", 
     "navigationBarBackgroundColor": "#0094ff",   "//" : "#fff",  
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "white",   "//" : "black"
+    "navigationBarTextStyle": "black",   "//" : "white",
+    "enablePullDownRefresh": true, "//" : "导航栏可与下拉刷新",
+    "backgroundColor": "#0000ff", "//" : "下拉刷新背景颜色"
   },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index", "//" : "页面路径",
+      "text": "首页", "//" : "导航栏具体名称",
+      "iconPath": "icon/_home.png", "//" : "未选中图标路径",
+      "selectedIconPath": "icon/home.png", "//" : "选中图标路径"
+    },
+    {
+      "pagePath": "pages/img/img", "//" : "页面路径",
+      "text": "图片", "//" : "导航栏具体名称",
+      "iconPath": "icon/_img.png", "//" : "未选中图标路径",
+      "selectedIconPath": "icon/img.png", "//" : "选中图标路径"
+    },
+    {
+      "pagePath": "pages/mine/mine", "//" : "页面路径",
+      "text": "我的", "//" : "导航栏具体名称",
+      "iconPath": "icon/_my.png", "//" : "未选中图标路径",
+      "selectedIconPath": "icon/my.png", "//" : "选中图标路径"
+    },
+    {
+      "pagePath": "pages/search/search", "//" : "页面路径",
+      "text": "搜索", "//" : "导航栏具体名称",
+      "iconPath": "icon/_search.png", "//" : "未选中图标路径",
+      "selectedIconPath": "icon/search.png", "//" : "选中图标路径"
+    }
+  ]
+  },
+
+  "//" : "导航栏", 
+
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
