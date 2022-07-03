@@ -4,6 +4,7 @@
     "pages/img/img",
     "pages/mine/mine",
     "pages/search/search",
+    "pages/test_2/test_2",
     "pages/test_1/test_1",
     "pages/test/test",
     "pages/logs/logs"
@@ -41,7 +42,11 @@
       "iconPath": "icon/_search.png", "//" : "未选中图标路径",
       "selectedIconPath": "icon/search.png", "//" : "选中图标路径"
     }
-  ]
+  ],
+  "color": "0094ff", "//": "导航栏字体未选中时的颜色",
+  "selectedColor": "#ff9400", "//": "导航栏字体选中后的颜色",
+  "backgroundColor": "ff5533", "//": "导航栏背景颜色",
+  "position": "top", "//": "导航栏位置"
   },
 
   "//" : "导航栏", 

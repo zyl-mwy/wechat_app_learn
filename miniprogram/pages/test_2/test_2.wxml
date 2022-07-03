@@ -1,0 +1,5 @@
+<!--pages/test_2/test_2.wxml-->
+<!--
+  1 text 相当于以前web中的 span标签 行内元素 不会换行
+-->
+<text>pages/test_2/test_2.wxml</text>
