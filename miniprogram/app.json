@@ -9,7 +9,7 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#0094ff",   "//" : "#fff",  
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white",   "//" : "black"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
