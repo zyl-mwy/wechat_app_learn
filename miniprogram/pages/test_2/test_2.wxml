@@ -22,3 +22,41 @@
   -->
   <checkbox checked="{{isChecked}}"></checkbox>
 </view>
+
+<view>{{1+1}}</view>
+<view>{{'1'+'1'}}</view>
+<view>{{ 10%2===0 ? '偶数' : '奇数' }}</view>
+
+<veiw>
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+    索引：{{index}}
+    --
+    值：{{item.name}}
+  </view>
+</veiw>
+
+<veiw>
+  <view wx:for="{{list}}" wx:key="id">
+    索引：{{index}}
+    --
+    值：{{item.name}}
+  </view>
+</veiw>
+
+<view>
+  <view>对象循环</view>
+  <view wx:for="{{person}}">
+    属性：{{index}}
+    --
+    值：{{item}}
+  </view>
+</view>
+
+<view>
+  <view>对象循环</view>
+  <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age">
+    属性：{{key}}
+    --
+    值：{{value}}
+  </view>
+</view>
