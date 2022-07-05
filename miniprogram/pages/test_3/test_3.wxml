@@ -1,0 +1,5 @@
+<!--pages/test_3/test_3.wxml-->
+<input type="text" bindinput="test" />
+<view>
+  {{num}}
+</view>
