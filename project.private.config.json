@@ -3,5 +3,6 @@
   "projectname": "we_chat_app_1",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "2.15.0"
 }

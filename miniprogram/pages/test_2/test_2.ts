@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    msg: "wenyi", "//": "定义字符串",
+    num: 10000, "//": "定义数字",
+    isGirl: false, "//": "定义布尔类型",
+    isChecked: false,
+    person: {
+      age: 74,
+      height: 145,
+      weight: 200,
+      name: "富婆"
+    }
   },
 
   /**
@@ -47,7 +56,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh() {
-
+    msg: "wenyi"
   },
 
   /**

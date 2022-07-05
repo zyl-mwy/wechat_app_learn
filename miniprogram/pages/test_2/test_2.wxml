@@ -1,5 +1,24 @@
-<!--pages/test_2/test_2.wxml-->
 <!--
   1 text 相当于以前web中的 span标签 行内元素 不会换行
+  2 view 相当于以前web中的 div标签 块级元素 会换行
+  3 checkbox 相当于复选框
 -->
+<text>1</text>
+<text>2</text>
+<view>3</view>
+<view>4</view>
+<!--引用变量-->
+<view>{{msg}}</view>
+<view>{{num}}</view>
+<view>是否是伪娘：{{isGirl}}</view>
+<view>{{person.age}}</view>
 <text>pages/test_2/test_2.wxml</text>
+<view data-num="{{num}}">自定义属性</view>
+<view>
+  <checkbox checked> </checkbox>
+  <checkbox checked="{{true}}"></checkbox>
+  <!--
+    字符串和花括号之间不要有空格
+  -->
+  <checkbox checked="{{isChecked}}"></checkbox>
+</view>
