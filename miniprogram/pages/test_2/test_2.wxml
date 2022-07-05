@@ -76,3 +76,22 @@
     值：{{item.name}}
   </block>
 </veiw>
+
+<view>
+  <view>条件渲染</view>
+  <view  wx:if="{{true}}">显示</view>
+  <view  wx:if="{{false}}">隐藏</view>
+
+  <view wx:if="{{true}}">1</view>
+  <view wx:elif="{{false}}">2</view>
+
+  <view wx:if="{{false}}">1</view>
+  <view wx:elif="{{false}}">2</view>
+  <view wx:else>3</view>
+
+  <view>-------</view>
+  <view hidden>hidden1</view>
+  <view hidden="{{true}}">hidden2</view>
+  <view hidden="{{false}}">hidden3</view>
+ 
+</view>
