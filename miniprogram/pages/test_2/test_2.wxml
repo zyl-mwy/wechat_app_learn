@@ -60,3 +60,19 @@
     值：{{value}}
   </view>
 </view>
+
+<veiw>
+  <view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id" class="my_list">
+    索引：{{index}}
+    --
+    值：{{item.name}}
+  </view>
+</veiw>
+
+<veiw>
+  <block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id" class="my_list">
+    索引：{{index}}
+    --
+    值：{{item.name}}
+  </block>
+</veiw>
