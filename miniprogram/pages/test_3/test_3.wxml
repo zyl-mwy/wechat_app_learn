@@ -1,5 +1,7 @@
 <!--pages/test_3/test_3.wxml-->
 <input type="text" bindinput="test" />
+<button bindtap="handletap" data-operation="{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}">-</button>
 <view>
   {{num}}
 </view>
