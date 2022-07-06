@@ -1,0 +1,4 @@
+<!--pages/test_6/test_6.wxml-->
+<text selectable decode> <!--长按复制 编码-->
+  text &nbsp; 123 &lt;
+</text>
