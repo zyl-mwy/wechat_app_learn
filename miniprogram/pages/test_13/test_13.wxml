@@ -1,0 +1,7 @@
+<!--pages/test_13/test_13.wxml-->
+<radio-group bindchange="handleChange">
+  <radio color="red" value="male">男</radio>
+  <radio value="female">女</radio>
+</radio-group>>
+
+<view>您选中的是：{{gender}}</view>
