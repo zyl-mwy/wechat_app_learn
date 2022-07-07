@@ -1,0 +1,6 @@
+<button>默认按钮</button>
+<button size="mini">mini 默认按钮</button>
+<button type="primary">primary 按钮</button>
+<button type="warn">warn 按钮</button>
+<button type="primary" plain>primary 按钮</button>
+<button type="primary" loading>primary 按钮</button>
