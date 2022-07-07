@@ -1,0 +1,8 @@
+/* pages/test_8/test_8.wxss */
+swider{
+  width: 100%;
+  height: calc(100vw * 352 /1125);
+}
+image{
+  width: 100%;
+}

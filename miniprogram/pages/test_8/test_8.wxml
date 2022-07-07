@@ -1,0 +1,12 @@
+<swiper autoplay interval="1000" circular indicator-dots indicator-color="#0094ff" indicator-active-color="#ff0094">
+  <swiper-item>
+    <image mode="widthFix" src="https://img1.imgtp.com/2022/07/07/9sKqEiJm.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://img1.imgtp.com/2022/07/07/9sKqEiJm.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://img1.imgtp.com/2022/07/07/9sKqEiJm.jpg" />
+  </swiper-item>
+
+</swiper>
