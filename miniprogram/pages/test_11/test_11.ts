@@ -1,6 +1,11 @@
 // pages/test_11/test_11.ts
 Page({
-
+  getPhoneNumber(e){
+    console.log(e);
+  },
+  getUserInfo(e){
+    console.log(e);
+  },
   /**
    * 页面的初始数据
    */
