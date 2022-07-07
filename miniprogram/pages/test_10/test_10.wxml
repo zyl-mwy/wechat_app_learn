@@ -1,0 +1,4 @@
+<!--pages/test_10/test_10.wxml-->
+<rich-text nodes="{{html_1}}">---</rich-text>>
+<text>111</text>
+<rich-text nodes="{{html}}">---</rich-text>>
