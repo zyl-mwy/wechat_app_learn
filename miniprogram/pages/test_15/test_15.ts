@@ -29,6 +29,22 @@ Page({
     ]
   },
 
+  handleItemChange(e){
+    console.log(e);
+    const {index} = e.detail;
+    console.log(index);
+
+    let {tabs_new} = this.data;
+    
+    tabs_new.forEach((a, b) => b === index ? a.isActive = true : a.isActive = false);
+      //this.data.tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
+
+    this.setData({
+      tabs_new
+    });
+    
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

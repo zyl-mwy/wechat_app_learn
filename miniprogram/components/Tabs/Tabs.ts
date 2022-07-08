@@ -63,6 +63,7 @@ Component({
       this.setData({
         tabs
       })
+      
     },
 
     handleItemTap_new(e){
@@ -71,16 +72,18 @@ Component({
 
       const {index} = e.currentTarget.dataset;
 
-      let {tabs_new} = this.data;
-      //let tabs=JSON.parse(JSON.stringify(this.data.tabs));
-      //let tabs=this.data.tabs;
+      // let {tabs_new} = this.data;
+      // //let tabs=JSON.parse(JSON.stringify(this.data.tabs));
+      // //let tabs=this.data.tabs;
 
-      tabs_new.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
-      //this.data.tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
+      // tabs_new.forEach((a,b)=>b===index?a.isActive=true:a.isActive=false);
+      // //this.data.tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
 
-      this.setData({
-        tabs_new
-      })
+      // this.setData({
+      //   tabs_new
+      // })
+
+      this.triggerEvent("itemChange",{index});
     }
   }
 })

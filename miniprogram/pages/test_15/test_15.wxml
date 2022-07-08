@@ -1,2 +1,2 @@
-<Tabs aaa="a123a" tabs_new="{{tabs_new}}"></Tabs>
+<Tabs aaa="a123a" tabs_new="{{tabs_new}}" binditemChange="handleItemChange"></Tabs>
 <!-- <Tabs aaa="a123a" tabs_new="{{tabs_new}}"></Tabs> -->
