@@ -4,7 +4,14 @@ Component({
    * 组件的属性列表
    */
   properties: {
-
+    aaa:{
+      type:String,
+      value: ""
+    },
+    tabs_new:{
+      type: Array,
+      value: []
+    }
   },
 
   /**
@@ -55,6 +62,24 @@ Component({
 
       this.setData({
         tabs
+      })
+    },
+
+    handleItemTap_new(e){
+      //console.log("点击我试试");
+      console.log(e);
+
+      const {index} = e.currentTarget.dataset;
+
+      let {tabs_new} = this.data;
+      //let tabs=JSON.parse(JSON.stringify(this.data.tabs));
+      //let tabs=this.data.tabs;
+
+      tabs_new.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
+      //this.data.tabs.forEach((v,i)=>i===index?v.isActive=true:v.isActive=false);
+
+      this.setData({
+        tabs_new
       })
     }
   }

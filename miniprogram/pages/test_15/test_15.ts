@@ -5,7 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    tabs_new:[
+      {
+        id: 0,
+        name: "首页_1",
+        isActive: true
+      },
+      {
+        id: 1,
+        name: "原创_1",
+        isActive: false
+      },
+      {
+        id: 2,
+        name: "分类_1",
+        isActive: false
+      },
+      {
+        id: 3,
+        name: "关于_1",
+        isActive: false
+      }
+    ]
   },
 
   /**
