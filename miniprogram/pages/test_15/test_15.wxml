@@ -1,2 +1,8 @@
-<Tabs aaa="a123a" tabs_new="{{tabs_new}}" binditemChange="handleItemChange"></Tabs>
+<Tabs aaa="a123a" tabs_new="{{tabs_new}}" binditemChange="handleItemChange">
+  <view>父组件传递过来的</view>
+  <block wx:if="{{tabs_new[0].isActive}}">0</block>
+  <block wx:elif="{{tabs_new[1].isActive}}">1</block>
+  <block wx:elif="{{tabs_new[2].isActive}}">2</block>
+  <block wx:else>3</block>
+</Tabs>
 <!-- <Tabs aaa="a123a" tabs_new="{{tabs_new}}"></Tabs> -->
