@@ -15,4 +15,31 @@ App<IAppOption>({
       },
     })
   },
+
+  onLaunch(){
+    console.log("onLaunch");
+
+    
+  },
+
+  onShow(){
+    console.log("onShow");
+  },
+
+  onHide(){
+    console.log("onHide");
+  },
+
+  onError(err){
+    console.log("onError");
+    console.log(err);
+  },
+
+  onPageNotFound(){
+    console.log("onPageNotFound");
+
+    wx.navigateTo({
+      url: '/pages/test_7/test_7'
+    })
+  }
 })
