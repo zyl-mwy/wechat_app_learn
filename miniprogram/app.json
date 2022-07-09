@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/test_16/test_16",
     "pages/test_15/test_15",
     "pages/test_14/test_14",
     "pages/test_13/test_13",
@@ -53,6 +54,12 @@
     {
       "pagePath": "pages/search/search", "//" : "页面路径",
       "text": "搜索", "//" : "导航栏具体名称",
+      "iconPath": "icon/_search.png", "//" : "未选中图标路径",
+      "selectedIconPath": "icon/search.png", "//" : "选中图标路径"
+    },
+    {
+      "pagePath": "pages/test_16/test_16", "//" : "页面路径",
+      "text": "test_16", "//" : "导航栏具体名称",
       "iconPath": "icon/_search.png", "//" : "未选中图标路径",
       "selectedIconPath": "icon/search.png", "//" : "选中图标路径"
     }

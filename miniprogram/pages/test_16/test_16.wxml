@@ -1,0 +1,43 @@
+<!--pages/test_16/test_16.wxml-->
+<text>pages/test_16/test_16.wxml</text>
+
+<navigator url="/pages/test_15/test_15" open-type="navigate">
+  test_15
+</navigator>
+
+<navigator url="/pages/test_15/test_15" open-type="redirect">
+  test_15 redirect
+</navigator>
+
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
+<view>01</view>
